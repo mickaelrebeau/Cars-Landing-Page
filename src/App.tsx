@@ -6,6 +6,7 @@ import "./App.css";
 import { background } from "./assets/videos";
 import { Gallery } from "./components/Gallery";
 import { Presentation } from "./components/Presentation";
+import { Zoom } from "./components/Zoom";
 
 function App() {
 	return (
@@ -35,6 +36,7 @@ function Layout() {
 				<Home />
 				<Presentation />
 				<Gallery />
+				<Zoom />
 			</div>
 		</div>
 	);
