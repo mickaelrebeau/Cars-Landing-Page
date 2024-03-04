@@ -6,5 +6,6 @@ import phare from './phare.jpg';
 import vigne from './vigne.jpg';
 import mercedes2 from './mercedes2.jpg';
 import benz from './benz.jpg';
+import cobra from './cobra.jpg';
 
-export { bradley, mercedes, mustang, eric, phare, vigne, mercedes2, benz };
+export { bradley, mercedes, mustang, eric, phare, vigne, mercedes2, benz, cobra };
