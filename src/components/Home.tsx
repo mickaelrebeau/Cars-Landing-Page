@@ -11,12 +11,13 @@ export const Home = () => {
 			viewport={{ once: true, amount: 0.25 }}
 		>
 			<motion.h2
-				className="mb-12 text-8xl font-bold text-center"
+				className="mb-12 text-8xl font-bold text-center font-amiri"
 				variants={textVariant(0.1)}
 			>
 				Découvrez l'Élégance Intemporelle des Voitures Vintage
 			</motion.h2>
-			<motion.p className="text-3xl text-center"
+			<motion.p
+				className="text-3xl text-center font-raleway"
 				variants={textVariant(0.3)}
 			>
 				Exploration passionnante à travers l'histoire automobile pour les

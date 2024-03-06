@@ -13,8 +13,8 @@ export const Card = ({
 
 	return (
 		<div className={className}>
-			<h2 className="text-xl font-bold text-center">{date}</h2>
-			<p className="text-lg">{description}</p>
+			<h2 className="text-4xl font-bold text-center font-amiri">{date}</h2>
+			<p className="text-xl font-raleway">{description}</p>
 			<span
 				className={
 					isLeft

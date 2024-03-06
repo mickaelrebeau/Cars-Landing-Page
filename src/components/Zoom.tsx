@@ -37,8 +37,8 @@ export const Zoom = () => {
 				}}
 				className="w-full h-[100vh] sticky top-0 flex flex-col justify-end gap-8"
 			>
-				<div className="p-8 mx-auto w-[60%] h-auto flex flex-col items-center justify-center gap-10 bg-black/50 rounded-md backdrop-blur-sm">
-					<h2 className="text-3xl font-bold">
+				<div className="p-8 mx-auto w-[60%] h-auto flex flex-col items-center justify-center gap-10 bg-black/50 rounded-md backdrop-blur-sm font-raleway">
+					<h2 className="text-3xl font-bold font-amiri">
 						Cobra Shelby : L'Élégance Féline de la Puissance Automobile
 					</h2>
 					<p className="text-xl">
