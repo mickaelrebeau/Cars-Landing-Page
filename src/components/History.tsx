@@ -1,5 +1,7 @@
 import { data } from "@/utils/constants";
 import { Card } from "./date-card";
+import { motion } from "framer-motion";
+import { slideIn } from "@/utils/motion";
 
 export const History = () => {
 	return (
@@ -9,12 +11,24 @@ export const History = () => {
 				<div className="w-full flex flex-col items-center gap-48 relative">
 					{data.map((el) => {
 						return (
-							<Card
-								date={el.date}
-								description={el.description}
-								isLeft={el.isLeft}
-								addClass={el.isLeft ? "ml-[600px]" : "mr-[600px]"}
-							/>
+							<motion.div
+								key={el.id}
+								variants={
+									el.isLeft
+										? slideIn("right", "tween", 0.2, 0.25)
+										: slideIn("left", "tween", 0.2, 0.25)
+								}
+								initial="hidden"
+								whileInView="show"
+								viewport={{ once: true, amount: 0.25 }}
+							>
+								<Card
+									date={el.date}
+									description={el.description}
+									isLeft={el.isLeft}
+									addClass={el.isLeft ? "ml-[600px]" : "mr-[600px]"}
+								/>
+							</motion.div>
 						);
 					})}
 				</div>
