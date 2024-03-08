@@ -16,7 +16,9 @@ export const Header = () => {
 				<li className="font-semibold">
 					<a href="#Cobra">Cobra</a>
 				</li>
-				<li className="font-semibold">Section</li>
+				<li className="font-semibold">
+					<a href="#History">History</a>
+				</li>
 				<li className="font-semibold">Section</li>
 			</ul>
 		</nav>
